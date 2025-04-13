@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./hello.component.css'],
 })
 export class HelloComponent {
-  @Input() name: string;
+  @Input() name: string = '';
 }
