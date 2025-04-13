@@ -16,4 +16,8 @@ export class ButtonComponent {
     buttonObject = {
         label: 'ACESSAR',  
     };
+
+    getAlert(num: number) {
+        alert(num);
+    };
 }

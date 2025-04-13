@@ -4,8 +4,18 @@
 <p>Start editing to see some magic happen :)</p>
 <h1>Olá mundão!</h1>
 
-<my-button label="{{ buttonLabel }}"></my-button>
-<my-button label="Notícia"></my-button>
+<!-- Data binding: associação de dados -->
 
+<!-- Interpolação de strings -->
+<my-button label="Notícia"></my-button>
+<my-button label="{{ buttonLabel }}"></my-button>
+
+<!-- Property binding -->
 <my-button [label]="buttonSecond"></my-button>
 <my-button [label]="'Carrinho'"></my-button>
+
+<!-- Event binding -->
+<my-button label="Teste" (click)="getAlert()"></my-button>
+
+<!-- two way data binding -->
+<entry-data></entry-data>
