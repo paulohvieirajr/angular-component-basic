@@ -1,6 +1,11 @@
 <hello name="{{ name }}"></hello>
 <menu-component></menu-component>
-<my-button></my-button>
 
 <p>Start editing to see some magic happen :)</p>
 <h1>Olá mundão!</h1>
+
+<my-button label="{{ buttonLabel }}"></my-button>
+<my-button label="Notícia"></my-button>
+
+<my-button [label]="buttonSecond"></my-button>
+<my-button [label]="'Carrinho'"></my-button>
